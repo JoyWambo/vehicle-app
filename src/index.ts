@@ -6,7 +6,7 @@ interface Vehicle {
   start(): void;
 }
 
-// Implement Car class that implements Vehicle interface
+// Implement Car class that implements Vehicle interface.
 class Car implements Vehicle {
   make: string;
   model: string;
